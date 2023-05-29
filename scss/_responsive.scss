@@ -1,0 +1,201 @@
+/* 
+==========================================               ========================================== 
+========================================== MEDIA QUERIES ========================================== 
+==========================================               ========================================== 
+ */
+@media screen and (max-width: 1600px) {
+
+    .galery__container {
+        width: 1400px;
+        height: 300px;
+    }
+
+    .galery__container2 {
+        width: 1400px;
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .galery__container {
+        width: 1200px;
+        height: 300px;
+    }
+
+    .galery__container2 {
+        width: 1200px;
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .galery__container {
+        width: 1000px;
+        height: 300px;
+    }
+
+    .galery__container2 {
+        width: 1000px;
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .nav__submenu {
+        display: block;
+    }
+
+    .nav__icon1 {
+        display: none;
+    }
+
+    .nav__icon2 {
+        display: none;
+    }
+
+    .nav__icon2--bg {
+        margin-right: 1.5rem;
+    }
+
+    .nav__links a {
+        color: white;
+    }
+
+    .galery__container {
+        width: 900px;
+        height: 300px;
+    }
+
+    .galery__container2 {
+        width: 900px;
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .galery__container {
+        width: 800px;
+        height: 250px;
+    }
+
+    .galery__container2 {
+        width: 800px;
+        height: 250px;
+    }
+}
+
+
+@media screen and (max-width: 800px) {
+    .galery__container {
+        width: 700px;
+        height: 250px;
+    }
+    .pie-pagina .grupo-1{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap:30px;
+        padding: 35px 0px;
+    }
+    .pie-pagina .grupo-1 .box figure img{
+        width: 100px;
+    }
+
+    .galery__container2 {
+        width: 700px;
+        height: 250px;
+    }
+}
+
+@media screen and (max-width: 758px) {
+    .footer__logo img {
+        width: 70px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .galery__container {
+        width: 600px;
+        height: 200px;
+    }
+
+    .galery__container2 {
+        width: 600px;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .subtitle span {
+        padding: 0.3rem;
+    }
+
+    .subtitle span {
+        font-size: 1.2rem;
+    }
+
+    .galery__container {
+        width: 500px;
+        height: 200px;
+    }
+
+    .galery__container2 {
+        width: 500px;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .galery__container {
+        width: 400px;
+        height: 150px;
+    }
+
+    .galery__container img:hover {
+        width: 200px;
+    }
+
+    .galery__container2 img:hover {
+        width: 200px;
+    }
+
+    .galery__container2 {
+        width: 400px;
+        height: 150px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .galery__container {
+        width: 300px;
+        height: 150px;
+    }
+
+    .galery__container2 {
+        width: 300px;
+        height: 150px;
+    }
+
+    .footer__container a {
+        font-size: small;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .galery__container {
+        width: 250px;
+        height: 100px;
+    }
+
+    .galery__container2 {
+        width: 250px;
+        height: 100px;
+    }
+
+    .galery__container img:hover {
+        width: 100px;
+    }
+
+    .galery__container2 img:hover {
+        width: 100px;
+    }
+}

@@ -1,0 +1,18 @@
+/* =============================GLOBAL */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Outfit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nunito:wght@200&family=Outfit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Didact+Gothic&family=Nunito:wght@200&family=Outfit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Didact+Gothic&family=Inter&family=Nunito:wght@200&family=Outfit&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    a {
+        text-decoration: none;
+        color: black;
+    }
+    li {
+        list-style-type: none;
+    }
+}

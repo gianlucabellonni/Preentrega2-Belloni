@@ -15,27 +15,38 @@
     <link
         rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/main.css">
 </head>
 
 <body>
     <!-- ==========================NAVBAR -->
     <header class="nav__container">
         <div class="nav__logo">
-            <a href=""><img src="./assets/img/logo.png" alt=""></a>
+            <a href=""><img src="./assets/img/logo.png" alt="Logo de o993n"></a>
         </div>
         <nav>
             <ul class="nav__links">
-                <li><a href="">Nuevas colecciones</a></li>
+                <li><a href="./assets/pages/tienda.html">Nuevas colecciones</a></li>
                 <li><a href="./assets/pages/tienda.html">Tienda</a></li>
-                <li><a href="">Accesorios</a></li>
-                <li><a href="">Contacto</a></li>
+                <li><a href="./assets/pages/tienda.html">Accesorios</a></li>
+                <li><a href="./assets/pages/contacto.html">Contacto</a></li>
+                <a href=""><img class="nav__icon1" src="./assets/icon/iconcarrito.png" alt="Icono carrito de compras"></a>
+                <a href=""><img class="nav__icon2" src="./assets/icon/iconopersona1.png" alt="Icono iniciar sesion"></a>
             </ul>
         </nav>
+        
         <!-- ==========================BURGER-MENU -->
         <nav class="nav__submenu navbar navbar-light bg-light fixed-top">
             <div class="container-fluid">
-                <a class="navbar-brand nav__logo" href="#"><img src="./assets/img/logo.png" alt=""></a>
+                <a class="navbar-brand nav__logo" href="./index.html"><img src="./assets/img/logo.png" alt="Logo de o993n"></a>
+                <div>
+                    <a class="nav-link active" href="#"><img class="nav__icon1--bg" src="./assets/icon/iconcarrito.png" alt="Icono carrito de compras"></a>
+                </div>
+                <div>
+                    <a class="nav-link active" href="#"><img class="nav__icon2--bg" src="./assets/icon/iconopersona1.png" alt="Icono persona iniciar sesion"></a>
+                </div>
                 <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
                     data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar"
                     aria-label="Toggle navigation">
@@ -44,17 +55,17 @@
                 <div class="offcanvas offcanvas-end text-bg-light" tabindex="-1" id="offcanvasDarkNavbar"
                     aria-labelledby="offcanvasDarkNavbarLabel">
                     <div class="offcanvas-header">
-                        <h5 class="offcanvas-title" id="offcanvasLightNavbarLabel">ø993n</h5>
+                        <a href="./index.html"><h5 class="offcanvas-title" id="offcanvasLightNavbarLabel">ø993n</h5></a>
                         <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
                             aria-label="Close"></button>
                     </div>
                     <div class="offcanvas-body">
                         <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Nuevas colecciones</a>
+                                <a class="nav-link active" aria-current="page" href="./assets/pages/tienda.html">Nuevas colecciones</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active" href="#">Accesorios</a>
+                                <a class="nav-link active" href="./assets/pages/tienda.html">Accesorios</a>
                             </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link active dropdown-toggle" href="./assets/pages/tienda.html" role="button" data-bs-toggle="dropdown"
@@ -65,7 +76,11 @@
                                     <li><a class="dropdown-item" href="./assets/pages/tienda.html">Remeras</a></li>
                                     <li><a class="dropdown-item" href="./assets/pages/tienda.html">Pantalones</a></li>
                                     <li><a class="dropdown-item" href="./assets/pages/tienda.html">Jackets</a></li>
+                                    <li><a class="dropdown-item" href="./assets/pages/tienda.html">Gorras</a></li>
                                 </ul>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="./assets/pages/contacto.html">Contacto</a>
+                                </li>
                             </li>
                         </ul>
                         <form class="d-flex mt-3" role="search">
@@ -77,6 +92,7 @@
             </div>
         </nav>
     </header>
+
     <!-- ==========================MAIN -->
     <main>
         <article>
@@ -92,15 +108,15 @@
                 <div class="grid__carrusel carousel-inner">
                     <div class="grid__carrusel carousel-item active">
                         <img class="controlimage" src="./assets/carrusel-img/carrusel1.jpg" class="d-block w-100"
-                            alt="...">
+                            alt="Hoodie negro">
                     </div>
                     <div class="grid__carrusel carousel-item">
                         <img class="controlimage2" src="./assets/carrusel-img/carrusel2.jpg" class="d-block w-100"
-                            alt="...">
+                            alt="Hoodie negro">
                     </div>
                     <div class="grid__carrusel carousel-item">
                         <img class="controlimage3" src="./assets/carrusel-img/carrusel3.jpg" class="d-block w-100"
-                            alt="...">
+                            alt="Remeras">
                     </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
@@ -116,35 +132,58 @@
             </div>
         </article>
         <article class="grid__container">
-            <h2 class="subtitle animate__animated animate__fadeInDown"><span class="animate__animated animate__fadeInDown">Nuevas Cølecciones</span></h2>
+            <h2 class="subtitle animate__animated animate__fadeInDown">Nuevas Cølecciones</h2>
             <section class="galery__container animate__animated animate__fadeInDown">
-                <img src="./assets/img/galeria1.png" alt="">
-                <img src="./assets/img/galeria2.png" alt="">
-                <img src="./assets/img/galeria3.png" alt="">
-                <img src="./assets/img/galeria4.png" alt="">
-                <img src="./assets/img/galeria5.png" alt="">
-                <img src="./assets/img/galeria6.png" alt="">
-                <img src="./assets/img/galeria7.png" alt="">
+                <img src="./assets/img/galeria1.png" alt="imagen prendas">
+                <img src="./assets/img/galeria2.png" alt="imagen prendas">
+                <img src="./assets/img/galeria3.png" alt="imagen prendas">
+                <img src="./assets/img/galeria4.png" alt="imagen prendas">
+                <img src="./assets/img/galeria5.png" alt="imagen prendas">
+                <img src="./assets/img/galeria6.png" alt="imagen prendas">
+                <img src="./assets/img/galeria7.png" alt="imagen prendas">
             </section>
             <section class="galery__container2 animate__animated animate__fadeInDown">
-                <img src="./assets/img/zgaleria1.png" alt="">
-                <img src="./assets/img/zgaleria2.png" alt="">
-                <img src="./assets/img/zgaleria3.png" alt="">
-                <img src="./assets/img/zgaleria4.png" alt="">
-                <img src="./assets/img/zgaleria5.png" alt="">
-                <img src="./assets/img/zgaleria6.png" alt="">
-                <img src="./assets/img/zgaleria7.png" alt="">
+                <img src="./assets/img/zgaleria1.png" alt="imagen prendas">
+                <img src="./assets/img/zgaleria2.png" alt="imagen prendas">
+                <img src="./assets/img/zgaleria3.png" alt="imagen prendas">
+                <img src="./assets/img/zgaleria4.png" alt="imagen prendas">
+                <img src="./assets/img/zgaleria5.png" alt="imagen prendas">
+                <img src="./assets/img/zgaleria6.png" alt="imagen prendas">
+                <img src="./assets/img/zgaleria7.png" alt="imagen prendas">
             </section>
         </article>
     </main>
+
     <!-- ==========================FOOTER -->
-    <footer>
-        <section class="footer__container">
-            <a class="footer__logo" href=""><img src="./assets/img/logo.png" alt=""></a>
-            <a class="footer__link" href="">Acerca de ø933n</a>
-            <a class="footer__link" href="">Redes sociales</a>
-        </section>
+    <footer class="pie-pagina">
+        <div class="grupo-1">
+            <div class="box">
+                <figure>
+                    <a href="./index.html">
+                        <img src="./assets/img/logo.png" alt="Logo de o993n">
+                    </a>
+                </figure>
+            </div>
+            <div class="box">
+                <h2>SOBRE NOSOTROS</h2>
+                <p>Somos una empresa dedicada a la venta de prendas importadas</p>
+                <p>Nuestro objetivo? que encuentres lo que te gusta.</p>
+            </div>
+            <div class="box">
+                <h2>SIGUENOS</h2>
+                <div class="red-social">
+                    <a href="https://www.instagram.com/o993n/" class="fa fa-facebook"></a>
+                    <a href="https://www.instagram.com/o993n/" class="fa fa-instagram"></a>
+                    <a href="https://www.instagram.com/o993n/" class="fa fa-twitter"></a>
+                    <a href="https://www.instagram.com/o993n/" class="fa fa-youtube"></a>
+                </div>
+            </div>
+        </div>
+        <div class="grupo-2">
+            <small>&copy; 2021 <b>ø993n</b> - Todos los Derechos Reservados.</small>
+        </div>
     </footer>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
         crossorigin="anonymous"></script>

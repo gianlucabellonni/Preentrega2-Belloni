@@ -1,0 +1,74 @@
+/* =============================HEADER */
+.nav__container{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 85px;
+    padding: 5px;
+}
+.nav__logo{
+    cursor: pointer;
+    margin-right: auto;
+}
+.nav__logo img{
+    height: 70px;
+    width: auto;
+    transition: all 0.3s;
+}
+.nav__logo img:hover{
+    transform: scale(1.2);
+}
+.nav__links{
+    list-style-type: none;
+    margin-top: 2rem;
+    font-size: 13px;
+
+}
+.nav__links li{
+    display: inline-block;
+    padding: 0 20px;
+    transition: all 0.3s;
+}
+.nav__links li:hover{
+    transform: scale(1.1);
+}
+.nav__links a{
+    font-size: 700;
+    text-decoration: none;
+}
+.nav__icon1{
+    width: 22px;
+    margin-right: 2rem;
+    margin-left: 1rem;
+    transition: all 0.3s;
+}
+.nav__icon1:hover{
+    transform: scale(1.2);
+}
+.nav__icon2{
+    width: 18px;
+    margin-right: 1rem;
+    transition: all 0.3s;
+}
+.nav__icon2:hover{
+    transform: scale(1.2);
+}
+.nav__submenu{
+    display: none;
+}
+.nav__icon1--bg{
+    width: 22px;
+    margin-left: 2rem;
+    transition: all 0.3s;
+}
+.nav__icon1--bg:hover{
+    transform: scale(1.2);
+}
+.nav__icon2--bg{
+    width: 18px;
+    margin-left: 2.1rem;
+    transition: all 0.3s;
+}
+.nav__icon2--bg:hover{
+    transform: scale(1.2);
+}
